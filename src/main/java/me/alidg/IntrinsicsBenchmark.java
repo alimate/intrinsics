@@ -17,7 +17,7 @@ public class IntrinsicsBenchmark {
 
     @Benchmark
     public double indirect() {
-        return Math.ceil(value);
+        return Math.ceil(value); // Calls the StrictMath.ceil(value) under the hood.
     }
 
     @Benchmark
