@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <java.version>14</java.version>
+        <java.version>15</java.version>
         <jmh.version>1.19</jmh.version>
         <maven-assembly-plugin.version>3.2.0</maven-assembly-plugin.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
