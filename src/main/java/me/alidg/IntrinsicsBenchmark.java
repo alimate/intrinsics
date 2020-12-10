@@ -17,12 +17,12 @@ public class IntrinsicsBenchmark {
 
     @Benchmark
     public double indirect() {
-        return Math.ceil(value); // Calls the StrictMath.ceil(value) under the hood.
+        return Math.log(value); // Calls the StrictMath.log(value) under the hood.
     }
 
     @Benchmark
     public double direct() {
-        return StrictMath.ceil(value);
+        return StrictMath.log(value);
     }
 
     public static void main(String[] args) throws Exception {
